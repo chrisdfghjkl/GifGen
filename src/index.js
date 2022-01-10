@@ -21,5 +21,6 @@ $(document).ready(function() {
   $('#newGif').click(function() {
     let tag = $('#tag').val();
     makeApiCall(tag);
+    $('#result').show();
   });
 });
